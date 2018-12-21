@@ -1,0 +1,24 @@
+8 //reset
+4 //shift right
+2 //shift down
+9 //enhance
+4 //shift right
+2 //shift down
+A //decrease
+8 //reset
+4 //shift right
+4 //shift right
+4 //shift right
+1 //shift up
+1 //shift up
+1 //shift up
+B //threshold
+8 //reset
+3 //shift left
+3 //shift left
+3 //shift left
+1 //shift up
+1 //shift up
+1 //shift up
+C //inverse threshold
+0 //write
