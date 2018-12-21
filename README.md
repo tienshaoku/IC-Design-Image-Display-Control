@@ -12,7 +12,7 @@ Verilog code of the implementation of Image Display Control
 6. Also, it's worth mentioning the problem of signed bit and unsigned bit, as this caused me some issues during the function of "decrease". Therefore, it's wiser to present the value in its full bits: 8 as 4'b1000.
 7. Lastly, I got into some serious problem when I assigned the value of one signal in two or more always block. This even forced stop the ModelSim. Therefore, I believe this issue is the most precious lesson I learnt from this homework.
 
-<br>
+
 
 
 1. HW4.pdf: description of the homework
