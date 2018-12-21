@@ -14,7 +14,7 @@ Verilog code of the implementation of Image Display Control
 
 <br>
 <br>
-
+#
 1. HW4.pdf: description of the homework
 2. Image Dispaly Control.pdf: review over the homework
 3. lcd_ctrl.v: verilog code of the Image Display Control
