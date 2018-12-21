@@ -8,6 +8,8 @@ Verilog code of the implementation of Image Display Control
 4. *.dat: testing data of the command, image and goal
 5. LCD_CRTL.vo, LCD_CTRL_v.sdo, cycloneii_atoms.v: files for simulation
 
+<br>
+
 ### Algorithm Explanation:
 1. I implement the idea of finite state machine: 2c1s(2 combinational circuits and 1 sequential circuit), to describe the behaviour of controlling the transformation between different processes. There are five states in my design: initialization, read, operation, write and the end. Then, I describe the signals of six outputs in the combinational circuit of different states.
 2. I use a counter during "read" and "write" states, and then let the address equal to the [5:0] bits of the counter. The sequence of data written out (IRB_D) is also depended on the number of counter.
