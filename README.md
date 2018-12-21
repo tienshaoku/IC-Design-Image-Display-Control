@@ -1,7 +1,12 @@
 # IC-Design-Image-Display-Control
 Verilog code of the implementation of Image Display Control
 
-
+1. HW4.pdf: description of the homework
+2. Image Dispaly Control.pdf: review over the homework
+3. lcd_ctrl.v: verilog code of the Image Display Control
+4. IRB.v, IROM.v, testfixture.v: testbench 
+4. *.dat: testing data of the command, image and goal
+5. LCD_CRTL.vo, LCD_CTRL_v.sdo, cycloneii_atoms.v: files for simulation
 
 ### Algorithm Explanation:
 1. I implement the idea of finite state machine: 2c1s(2 combinational circuits and 1 sequential circuit), to describe the behaviour of controlling the transformation between different processes. There are five states in my design: initialization, read, operation, write and the end. Then, I describe the signals of six outputs in the combinational circuit of different states.
@@ -12,12 +17,5 @@ Verilog code of the implementation of Image Display Control
 6. Also, it's worth mentioning the problem of signed bit and unsigned bit, as this caused me some issues during the function of "decrease". Therefore, it's wiser to present the value in its full bits: 8 as 4'b1000.
 7. Lastly, I got into some serious problem when I assigned the value of one signal in two or more always block. This even forced stop the ModelSim. Therefore, I believe this issue is the most precious lesson I learnt from this homework.
 
-<br>
-<br>
-#
-1. HW4.pdf: description of the homework
-2. Image Dispaly Control.pdf: review over the homework
-3. lcd_ctrl.v: verilog code of the Image Display Control
-4. IRB.v, IROM.v, testfixture.v: testbench 
-4. *.dat: testing data of the command, image and goal
-5. LCD_CRTL.vo, LCD_CTRL_v.sdo, cycloneii_atoms.v: files for simulation
+
+
